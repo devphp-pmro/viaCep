@@ -1,5 +1,8 @@
 <?php
 
-    require __DIR__."/vendor/autoload.php";
+use App\WebService\ViaCEP;
 
-    var_dump(\App\WebService\ViaCEP::consultaCEP(22631030));
+require __DIR__."/vendor/autoload.php";
+
+
+    var_dump(ViaCEP::consultaCEP(22631030));
